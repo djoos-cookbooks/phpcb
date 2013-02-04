@@ -18,7 +18,7 @@ php_pear "PEAR" do
 	action :upgrade
 end
 
-#phpqatools PEAR channel
+#PHP Quality Assurance Toolchain PEAR channel
 pearhub_chan = php_pear_channel "pear.phpqatools.org" do
 	action :discover
 end
