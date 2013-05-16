@@ -29,5 +29,5 @@ php_pear "PHP_CodeBrowser" do
 	if node[:phpcb][:version] != "latest"
 		version "#{node[:phpcb][:version]}"
 	end
-	action :upgrade
+	action :upgrade if node[:phpcb][:version] == "latest"
 end
