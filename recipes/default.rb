@@ -6,8 +6,8 @@
 #
 
 case node['phpcb']['install_method']
-    when "composer"
-        include_recipe "phpcb::composer"
-    when "phar"
-        include_recipe "phpcb::phar"
+when 'composer'
+  include_recipe 'phpcb::composer'
+when 'phar'
+  include_recipe 'phpcb::phar'
 end

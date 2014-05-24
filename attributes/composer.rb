@@ -5,4 +5,4 @@
 # Copyright 2013-2014, Escape Studios
 #
 
-default['phpcb']['prefix'] = "/usr/bin"
+default['phpcb']['prefix'] = '/usr/bin'
