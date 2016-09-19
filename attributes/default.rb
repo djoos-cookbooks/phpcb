@@ -2,7 +2,7 @@
 # Cookbook Name:: phpcb
 # Attributes:: default
 #
-# Copyright 2013-2014, Escape Studios
+# Copyright (c) 2016, David Joos
 #
 
 default['phpcb']['install_method'] = 'composer'

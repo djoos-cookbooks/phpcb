@@ -2,7 +2,7 @@
 # Cookbook Name:: phpcb
 # Recipe:: composer
 #
-# Copyright 2013-2014, Escape Studios
+# Copyright (c) 2016, David Joos
 #
 
 include_recipe 'composer'
@@ -17,11 +17,11 @@ directory phpcb_dir do
 end
 
 # figure out what version to install
-if node['phpcb']['version'] != 'latest'
-  version = node['phpcb']['version']
-else
-  version = '*.*.*'
-end
+version = if node['phpcb']['version'] != 'latest'
+            node['phpcb']['version']
+          else
+            '*.*.*'
+          end
 
 # composer.json
 template "#{phpcb_dir}/composer.json" do
