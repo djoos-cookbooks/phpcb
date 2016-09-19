@@ -10,6 +10,9 @@ version '1.0.0'
   supports os
 end
 
+source_url 'https://github.com/djoos-cookbooks/phpcb' if respond_to?(:source_url)
+issues_url 'https://github.com/djoos-cookbooks/phpcb/issues' if respond_to?(:issues_url)
+
 depends 'php'
 depends 'composer'
 
