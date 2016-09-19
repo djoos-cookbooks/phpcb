@@ -2,7 +2,7 @@
 # Cookbook Name:: phpcb
 # Recipe:: phar
 #
-# Copyright 2013-2014, Escape Studios
+# Copyright (c) 2016, David Joos
 #
 
 remote_file "#{node['phpcb']['install_dir']}/phpcb" do

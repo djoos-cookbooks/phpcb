@@ -2,7 +2,7 @@
 # Cookbook Name:: phpcb
 # Recipe:: default
 #
-# Copyright 2013-2014, Escape Studios
+# Copyright (c) 2016, David Joos
 #
 
 case node['phpcb']['install_method']
