@@ -1,11 +1,11 @@
 #
-# Cookbook Name:: phpcb
+# Cookbook:: phpcb
 # Recipe:: phar
 #
-# Copyright (c) 2016, David Joos
+# Copyright:: (c) 2016, David Joos
 #
 
 remote_file "#{node['phpcb']['install_dir']}/phpcb" do
   source node['phpcb']['phar_url']
-  mode 0755
+  mode '755'
 end

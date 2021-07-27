@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: phpcb
+# Cookbook:: phpcb
 # Attributes:: default
 #
-# Copyright (c) 2016, David Joos
+# Copyright:: (c) 2016, David Joos
 #
 
 default['phpcb']['install_method'] = 'composer'

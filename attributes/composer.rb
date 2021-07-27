@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: phpcb
+# Cookbook:: phpcb
 # Attributes:: composer
 #
-# Copyright (c) 2016, David Joos
+# Copyright:: (c) 2016, David Joos
 #
 
 default['phpcb']['prefix'] = '/usr/bin'

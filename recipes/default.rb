@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: phpcb
+# Cookbook:: phpcb
 # Recipe:: default
 #
-# Copyright (c) 2016, David Joos
+# Copyright:: (c) 2016, David Joos
 #
 
 case node['phpcb']['install_method']
